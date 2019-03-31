@@ -1905,7 +1905,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #4001ff;
+  background: #989cff;
 }
 .feed-link,
 .chat {
@@ -2479,16 +2479,16 @@ ul.breadcrumb li+li:last-child {
 .header {
   position: relative;
   margin: 0 auto;
-  width: calc(100% - 20px);
+  width: 960px;
 }
 @media (min-width: 1200px) {
   .header {
-    width: 1160px;
+    width: 960px;
   }
 }
 @media (min-width: 1600px) {
   .header {
-    width: 73%;
+    width: 960px;
   }
 }
 @media (max-width: 991px) {
@@ -2526,6 +2526,9 @@ ul.breadcrumb li+li:last-child {
 .main:after {
   clear: both;
 }
+.container .main-inner {
+  width: 960px;
+}
 @media (max-width: 991px) {
   .container .main-inner {
     width: auto;
@@ -2535,7 +2538,7 @@ ul.breadcrumb li+li:last-child {
   float: right;
   box-sizing: border-box;
   padding: 40px;
-  width: calc(100% - 252px);
+  width: 700px;
   background: #fff;
   min-height: 700px;
   box-shadow: initial;
