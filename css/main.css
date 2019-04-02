@@ -1905,7 +1905,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #b4ffab;
+  background: #01ccec;
 }
 .feed-link,
 .chat {
@@ -2967,4 +2967,12 @@ li.links-of-blogroll-item > a {
 }
 li.links-of-blogroll-item > span {
   display: inline !important;
+}
+div.post-meta {
+  margin-bottom: 0 !important;
+}
+div.post-body > #text {
+  text-align: center !important;
+  color: #999 !important;
+  font-size: 14px !important;
 }
