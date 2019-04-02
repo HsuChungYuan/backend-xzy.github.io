@@ -1910,7 +1910,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #49e50e;
+  background: #9e7aac;
 }
 .feed-link,
 .chat {
@@ -2980,4 +2980,7 @@ div.post-body > #text {
   text-align: center !important;
   color: #999 !important;
   font-size: 14px !important;
+}
+.posts-expand .post-title-link::before {
+  background: radial-gradient(circle, #f00, #ff0, #008000);
 }
