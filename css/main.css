@@ -435,6 +435,11 @@ th {
 td {
   border-bottom-width: 1px;
 }
+@media (min-width: 768px) and (max-width: 991px) {
+  .content-wrap {
+    padding: 0 40px !important;
+  }
+}
 @media (max-width: 567px) {
   .header-inner {
     margin-bottom: initial !important;
@@ -447,7 +452,7 @@ td {
   }
   .posts-expand {
     padding-top: 8px !important;
-    margin: initial !important;
+    margin: 0 40px !important;
   }
   .posts-expand .post-header {
     padding: 0 18px;
@@ -1905,7 +1910,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #f6ff9f;
+  background: #78ff52;
 }
 .feed-link,
 .chat {
