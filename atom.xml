@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://backend-xzy.github.io/"/>
-  <updated>2019-04-03T06:19:23.637Z</updated>
+  <updated>2019-04-03T11:09:11.996Z</updated>
   <id>http://backend-xzy.github.io/</id>
   
   <author>
@@ -17,13 +17,33 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>两行代码搞定Base64编码</title>
+    <link href="http://backend-xzy.github.io/2019/04/03/%E4%B8%A4%E8%A1%8C%E4%BB%A3%E7%A0%81%E6%90%9E%E5%AE%9ABase64%E7%BC%96%E7%A0%81/"/>
+    <id>http://backend-xzy.github.io/2019/04/03/两行代码搞定Base64编码/</id>
+    <published>2019-04-03T10:56:49.000Z</published>
+    <updated>2019-04-03T11:09:11.996Z</updated>
+    
+    <content type="html"><![CDATA[<a id="more"></a><h2 id="两行代码搞定Base64编码"><a href="#两行代码搞定Base64编码" class="headerlink" title="两行代码搞定Base64编码"></a>两行代码搞定Base64编码</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> java.util.Base64;</span><br><span class="line"></span><br><span class="line"><span class="comment">//拿到Base64编码器</span></span><br><span class="line">Base64.Encoder encoder = Base64.getEncoder();</span><br><span class="line"><span class="comment">//通过编码器拿到Base64编码后的字符串</span></span><br><span class="line">String base64Result = encoder.encodeToString(<span class="string">"要加密的东西，不一定是字符串"</span>.getBytes());</span><br></pre></td></tr></table></figure><hr>]]></content>
+    
+    <summary type="html">
+    
+      没错，使用Base64编码就是这么简单
+    
+    </summary>
+    
+    
+      <category term="Base64" scheme="http://backend-xzy.github.io/tags/Base64/"/>
+    
+  </entry>
+  
+  <entry>
     <title>三行代码搞定MD5加密</title>
     <link href="http://backend-xzy.github.io/2019/04/03/%E4%B8%89%E8%A1%8C%E4%BB%A3%E7%A0%81%E6%90%9E%E5%AE%9AMD5%E5%8A%A0%E5%AF%86/"/>
     <id>http://backend-xzy.github.io/2019/04/03/三行代码搞定MD5加密/</id>
     <published>2019-04-03T06:09:44.000Z</published>
-    <updated>2019-04-03T06:19:23.637Z</updated>
+    <updated>2019-04-03T11:00:13.062Z</updated>
     
-    <content type="html"><![CDATA[<a id="more"></a><h2 id="三行代码搞定MD5加密"><a href="#三行代码搞定MD5加密" class="headerlink" title="三行代码搞定MD5加密"></a>三行代码搞定MD5加密</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> org.apache.tomcat.util.buf.HexUtils;</span><br><span class="line"><span class="keyword">import</span> java.security.MessageDigest;</span><br><span class="line"><span class="comment">//获得MD5加密类实例</span></span><br><span class="line">MessageDigest md = MessageDigest.getInstance(<span class="string">"MD5"</span>);</span><br><span class="line">md.update(<span class="string">"要加密的字符串"</span>.getBytes(<span class="string">"UTF-8"</span>));</span><br><span class="line"><span class="comment">//得到32位的16进制字符串结果</span></span><br><span class="line">String hexResult = HexUtils.toHexString(md.digest());</span><br></pre></td></tr></table></figure><hr>]]></content>
+    <content type="html"><![CDATA[<a id="more"></a><h2 id="三行代码搞定MD5加密"><a href="#三行代码搞定MD5加密" class="headerlink" title="三行代码搞定MD5加密"></a>三行代码搞定MD5加密</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> org.apache.tomcat.util.buf.HexUtils;</span><br><span class="line"><span class="keyword">import</span> java.security.MessageDigest;</span><br><span class="line"></span><br><span class="line"><span class="comment">//获得MD5加密类实例</span></span><br><span class="line">MessageDigest md = MessageDigest.getInstance(<span class="string">"MD5"</span>);</span><br><span class="line">md.update(<span class="string">"要加密的字符串"</span>.getBytes(<span class="string">"UTF-8"</span>));</span><br><span class="line"><span class="comment">//得到32位的16进制字符串结果</span></span><br><span class="line">String hexResult = HexUtils.toHexString(md.digest());</span><br></pre></td></tr></table></figure><hr>]]></content>
     
     <summary type="html">
     
@@ -31,6 +51,8 @@
     
     </summary>
     
+    
+      <category term="MD5" scheme="http://backend-xzy.github.io/tags/MD5/"/>
     
   </entry>
   

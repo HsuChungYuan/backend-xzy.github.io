@@ -138,13 +138,14 @@
 
 
   <meta name="description" content="没错，使用MD5就是这么简单">
+<meta name="keywords" content="MD5">
 <meta property="og:type" content="article">
 <meta property="og:title" content="三行代码搞定MD5加密">
 <meta property="og:url" content="http://backend-xzy.github.io/2019/04/03/三行代码搞定MD5加密/index.html">
 <meta property="og:site_name" content="geek">
 <meta property="og:description" content="没错，使用MD5就是这么简单">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-04-03T06:19:23.637Z">
+<meta property="og:updated_time" content="2019-04-03T11:00:13.062Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="三行代码搞定MD5加密">
 <meta name="twitter:description" content="没错，使用MD5就是这么简单">
@@ -536,7 +537,7 @@
 
       
         <a id="more"></a>
-<h2 id="三行代码搞定MD5加密"><a href="#三行代码搞定MD5加密" class="headerlink" title="三行代码搞定MD5加密"></a>三行代码搞定MD5加密</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> org.apache.tomcat.util.buf.HexUtils;</span><br><span class="line"><span class="keyword">import</span> java.security.MessageDigest;</span><br><span class="line"><span class="comment">//获得MD5加密类实例</span></span><br><span class="line">MessageDigest md = MessageDigest.getInstance(<span class="string">"MD5"</span>);</span><br><span class="line">md.update(<span class="string">"要加密的字符串"</span>.getBytes(<span class="string">"UTF-8"</span>));</span><br><span class="line"><span class="comment">//得到32位的16进制字符串结果</span></span><br><span class="line">String hexResult = HexUtils.toHexString(md.digest());</span><br></pre></td></tr></table></figure>
+<h2 id="三行代码搞定MD5加密"><a href="#三行代码搞定MD5加密" class="headerlink" title="三行代码搞定MD5加密"></a>三行代码搞定MD5加密</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> org.apache.tomcat.util.buf.HexUtils;</span><br><span class="line"><span class="keyword">import</span> java.security.MessageDigest;</span><br><span class="line"></span><br><span class="line"><span class="comment">//获得MD5加密类实例</span></span><br><span class="line">MessageDigest md = MessageDigest.getInstance(<span class="string">"MD5"</span>);</span><br><span class="line">md.update(<span class="string">"要加密的字符串"</span>.getBytes(<span class="string">"UTF-8"</span>));</span><br><span class="line"><span class="comment">//得到32位的16进制字符串结果</span></span><br><span class="line">String hexResult = HexUtils.toHexString(md.digest());</span><br></pre></td></tr></table></figure>
 <hr>
       
     </div>
@@ -558,6 +559,12 @@
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/MD5/" rel="tag"># MD5</a>
+          
+        </div>
+      
 
       
       
@@ -576,6 +583,10 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2019/04/03/两行代码搞定Base64编码/" rel="prev" title="两行代码搞定Base64编码">
+                两行代码搞定Base64编码 <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -650,7 +661,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">3</span>
+                    <span class="site-state-item-count">4</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -688,7 +699,11 @@
                     
                       
                     
-                    <span class="site-state-item-count">1</span>
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">3</span>
                     <span class="site-state-item-name">标签</span>
                   </a>
                 </div>
