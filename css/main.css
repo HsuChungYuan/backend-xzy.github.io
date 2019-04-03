@@ -1910,7 +1910,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #9e7aac;
+  background: #632e6a;
 }
 .feed-link,
 .chat {
@@ -2983,4 +2983,20 @@ div.post-body > #text {
 }
 .posts-expand .post-title-link::before {
   background: radial-gradient(circle, #f00, #ff0, #008000);
+}
+div.sidebar-inner {
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+  transition-property: all;
+  background-image: url("/images/背景.jpg");
+  background-size: cover;
+}
+span.exturl {
+  transition-delay: 0s;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.2s;
+  transition-property: all;
+  position: relative;
+  width: 85px !important;
 }
