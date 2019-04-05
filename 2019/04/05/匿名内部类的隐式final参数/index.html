@@ -145,7 +145,7 @@
 <meta property="og:site_name" content="geek">
 <meta property="og:description" content="以前没听说过？没事，进来看看，你就懂了">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-04-05T05:54:23.583Z">
+<meta property="og:updated_time" content="2019-04-05T06:05:40.033Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="匿名内部类的隐式final参数">
 <meta name="twitter:description" content="以前没听说过？没事，进来看看，你就懂了">
@@ -554,7 +554,7 @@
       
 
       
-        <p>&emsp;&emsp;标题原文：为什么匿名内部类只能使用final修饰的局部变量。但是在写博文的过程中，发现这句话其实是根本不对的，故将标题改为“内部类的隐式final参数”。<br><a id="more"></a></p>
+        <p>&emsp;&emsp;标题原文：为什么匿名内部类只能使用final修饰的局部变量。但是在写博文的过程中，发现这句话其实是根本不对的，故将标题改为“匿名内部类的隐式final参数”。<br><a id="more"></a></p>
 <h2 id="1-一句话概念"><a href="#1-一句话概念" class="headerlink" title="1 一句话概念"></a>1 一句话概念</h2><h3 id="emsp-1-1-什么是匿名内部类"><a href="#emsp-1-1-什么是匿名内部类" class="headerlink" title="&emsp;1.1 什么是匿名内部类"></a>&emsp;1.1 什么是匿名内部类</h3><p>&emsp;&emsp;&emsp;匿名内部类就是定义在方法中的类。</p>
 <h3 id="emsp-1-2-什么是局部变量"><a href="#emsp-1-2-什么是局部变量" class="headerlink" title="&emsp;1.2 什么是局部变量"></a>&emsp;1.2 什么是局部变量</h3><p>&emsp;&emsp;&emsp;局部变量就是在方法中被声明的变量。</p>
 <h2 id="2-匿名内部类代码示例"><a href="#2-匿名内部类代码示例" class="headerlink" title="2 匿名内部类代码示例"></a>2 匿名内部类代码示例</h2><figure class="highlight java"><figcaption><span>不使用局部变量的匿名类</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">interface</span> <span class="title">Interface</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">function</span><span class="params">()</span></span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">test</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        <span class="comment">//匿名类定义开始</span></span><br><span class="line">        Interface intface = <span class="keyword">new</span> Interface() &#123;</span><br><span class="line">            <span class="meta">@Override</span></span><br><span class="line">            <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">function</span><span class="params">()</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">            &#125;</span><br><span class="line">        &#125;;<span class="comment">//匿名类定义结束</span></span><br><span class="line">        </span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
