@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://backend-xzy.github.io/"/>
-  <updated>2019-04-05T06:05:40.033Z</updated>
+  <updated>2019-04-10T13:16:29.038Z</updated>
   <id>http://backend-xzy.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Semaphore详解</title>
+    <link href="http://backend-xzy.github.io/2019/04/10/Semaphore%E8%AF%A6%E8%A7%A3/"/>
+    <id>http://backend-xzy.github.io/2019/04/10/Semaphore详解/</id>
+    <published>2019-04-10T13:11:00.000Z</published>
+    <updated>2019-04-10T13:16:29.038Z</updated>
+    
+    <content type="html"><![CDATA[<a id="more"></a><h2 id="Semaph详解"><a href="#Semaph详解" class="headerlink" title="Semaph详解"></a>Semaph详解</h2><p>[<span class="exturl" data-url="aHR0cDovL3d3dy5jbmJsb2dzLmNvbS9rbGJjL3AvOTUwMDk0Ny5odG1sXeeCueWHu+S6huino+ivpuaDhQ==" title="http://www.cnblogs.com/klbc/p/9500947.html]点击了解详情">http://www.cnblogs.com/klbc/p/9500947.html]点击了解详情<i class="fa fa-external-link"></i></span></p><hr>]]></content>
+    
+    <summary type="html">
+    
+      深入理解加强版synchronized
+    
+    </summary>
+    
+      <category term="juc" scheme="http://backend-xzy.github.io/categories/juc/"/>
+    
+    
+      <category term="juc" scheme="http://backend-xzy.github.io/tags/juc/"/>
+    
+      <category term="并发" scheme="http://backend-xzy.github.io/tags/%E5%B9%B6%E5%8F%91/"/>
+    
+  </entry>
   
   <entry>
     <title>匿名内部类的隐式final参数</title>

@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Semaphore详解]]></title>
+    <url>%2F2019%2F04%2F10%2FSemaphore%E8%AF%A6%E8%A7%A3%2F</url>
+    <content type="text"><![CDATA[Semaph详解[http://www.cnblogs.com/klbc/p/9500947.html]点击了解详情]]></content>
+      <categories>
+        <category>juc</category>
+      </categories>
+      <tags>
+        <tag>juc</tag>
+        <tag>并发</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[匿名内部类的隐式final参数]]></title>
     <url>%2F2019%2F04%2F05%2F%E5%8C%BF%E5%90%8D%E5%86%85%E9%83%A8%E7%B1%BB%E7%9A%84%E9%9A%90%E5%BC%8Ffinal%E5%8F%82%E6%95%B0%2F</url>
     <content type="text"><![CDATA[&emsp;&emsp;标题原文：为什么匿名内部类只能使用final修饰的局部变量。但是在写博文的过程中，发现这句话其实是根本不对的，故将标题改为“匿名内部类的隐式final参数”。 1 一句话概念&emsp;1.1 什么是匿名内部类&emsp;&emsp;&emsp;匿名内部类就是定义在方法中的类。 &emsp;1.2 什么是局部变量&emsp;&emsp;&emsp;局部变量就是在方法中被声明的变量。 2 匿名内部类代码示例不使用局部变量的匿名类12345678910111213141516public interface Interface &#123; public void function();&#125;class test &#123; public static void main(String[] args) &#123; //匿名类定义开始 Interface intface = new Interface() &#123; @Override public void function() &#123; &#125; &#125;;//匿名类定义结束 &#125;&#125; 3 问题导读 正常的类应该使用定义在其他方法中的局部变量吗？ 匿名内部类可以使用它外层方法里定义的局部变量吗？ 匿名内部类中使用的变量真的是外层方法的局部变量吗？ 4 匿名内部类代码示例使用了局部变量的匿名内部类，给人的感觉非常自然1234567891011121314151617public interface Interface &#123; public void function();&#125;class test &#123; public static void main(String[] args) &#123;+ String local = "This is a local variable."; //匿名类定义开始 Interface intface = new Interface() &#123; @Override public void function() &#123;+ System.out.println(local); &#125; &#125;;//匿名类定义结束 &#125;&#125; 5 分析&emsp;&emsp;对于普通类来说，使用定义在其他方法中的局部变量简直是不可理喻的事情；但是对于匿名内部类来说却又是看起来很正常的事，毕竟这个类完全被外层方法包裹了，能使用外层方法里的局部变量不是很理所应当的吗？&emsp;&emsp;这好像就得出结论了，普通类不能使用定义在其他方法中的局部变量，而匿名内部类可以使用定义在外层方法中的局部变量。 6 匿名内部类中使用的变量真的是外层方法的局部变量吗？&emsp;&emsp;众所周知，局部变量是保存在栈中的，而对象内的变量是保存在堆中的，所以匿名内部类中使用的变量不是外层方法的局部变量。实际上匿名内部类中所使用的外部方法中的局部变量，全部都是对于原先局部变量的拷贝，这其实也就是之前所学的函数传参的原理。 7 那final呢？上文所述可以解释隐式和参数这两个关键词，但是final又是什么鬼？别急，我们先来看一段代码不能通过编译的代码123456789101112131415161718public interface Interface &#123; public void function();&#125;class test &#123; public static void main(String[] args) &#123; String local = "This is a local variable."; //匿名类定义开始 Interface intface = new Interface() &#123; @Override public void function() &#123;+ local = "I want to change the variable, but i cannot"; System.out.println(local); &#125; &#125;;//匿名类定义结束 &#125;&#125; &emsp;&emsp;在新增加的语句处会编译报错，报错信息：Variable &#39;local&#39; is accessed from within inner class, needs to be final or effectively final.&emsp;&emsp;翻译：变量local在内部类中被访问，需要是final的或者是effectively final的。effectively final就是说如果你永远不修改变量的值，那这个变量就是等价于是final的，这是JDK8增加的新特性。 8 那为什么是final的呢？不是final的不行吗？&emsp;&emsp;现在我们知道了匿名内部类中的隐式参数是final的，但是我们并不知道为什么隐式参数是final的。&emsp;&emsp;其实吧，这个final是为了保证数据一致性。不理解？没关系，我们来看下一段代码假设这段代码能够通过编译1234567891011121314151617public interface Interface &#123; public void function();&#125;class test &#123; public static void main(String[] args) &#123; String local = "This is a local variable."; //匿名类定义开始 Interface intface = new Interface() &#123; @Override public void function() &#123; local = "I want to change the variable, but i cannot"; System.out.println(local); &#125; &#125;;//匿名类定义结束 &#125; &#125; &emsp;&emsp;在分析之前，再提一下关键点 这里实际上有两个local变量，而非一个 Java设计者希望造成一种错觉，让人们误以为只有一个local变量（这就要求两个变量的数据要一致） &emsp;&emsp;分析：运行至12行，内部类中的local变量被改变了，这就导致两个local变量的值不一样，违背了Java的设计要求，所以Java设计者们规定隐式参数为final来保证数据一致性]]></content>
