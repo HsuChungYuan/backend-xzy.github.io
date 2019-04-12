@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://backend-xzy.github.io/"/>
-  <updated>2019-04-12T01:26:24.914Z</updated>
+  <updated>2019-04-12T02:25:52.997Z</updated>
   <id>http://backend-xzy.github.io/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>String.intern 深入研究</title>
+    <link href="http://backend-xzy.github.io/2019/04/12/String-intern%E6%B7%B1%E5%85%A5%E7%A0%94%E7%A9%B6/"/>
+    <id>http://backend-xzy.github.io/2019/04/12/String-intern深入研究/</id>
+    <published>2019-04-12T02:23:01.000Z</published>
+    <updated>2019-04-12T02:25:52.997Z</updated>
+    
+    <content type="html"><![CDATA[<a id="more"></a><h2 id="String-intern-深入研究"><a href="#String-intern-深入研究" class="headerlink" title="String.intern 深入研究"></a>String.intern 深入研究</h2><p><span class="exturl" data-url="aHR0cHM6Ly93d3cuY25ibG9ncy5jb20vS2lkZXp5cS9wLzgwNDAzMzguaHRtbA==" title="https://www.cnblogs.com/Kidezyq/p/8040338.html">点击了解详情<i class="fa fa-external-link"></i></span></p><hr>]]></content>
+    
+    <summary type="html">
+    
+      不可变的 String 对象与常量池之间的关系
+    
+    </summary>
+    
+      <category term="Java拾遗" scheme="http://backend-xzy.github.io/categories/Java%E6%8B%BE%E9%81%97/"/>
+    
+    
+      <category term="Java拾遗" scheme="http://backend-xzy.github.io/tags/Java%E6%8B%BE%E9%81%97/"/>
+    
+  </entry>
   
   <entry>
     <title>个人学习路线</title>
