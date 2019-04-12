@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://backend-xzy.github.io/"/>
-  <updated>2019-04-11T02:36:09.740Z</updated>
+  <updated>2019-04-12T01:21:30.627Z</updated>
   <id>http://backend-xzy.github.io/</id>
   
   <author>
@@ -15,6 +15,24 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>个人学习路线</title>
+    <link href="http://backend-xzy.github.io/2019/04/12/%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/"/>
+    <id>http://backend-xzy.github.io/2019/04/12/个人学习路线/</id>
+    <published>2019-04-12T01:06:49.000Z</published>
+    <updated>2019-04-12T01:21:30.627Z</updated>
+    
+    <content type="html"><![CDATA[<a id="more"></a><h2 id="大一上"><a href="#大一上" class="headerlink" title="大一上"></a>大一上</h2><ul><li>C学到链表  </li></ul><h2 id="大一下"><a href="#大一下" class="headerlink" title="大一下"></a>大一下</h2><ul><li>数据结构和算法入门</li><li>Linux入门</li><li>数据库入门</li><li>JavaSE入门</li></ul><h2 id="大二上"><a href="#大二上" class="headerlink" title="大二上"></a>大二上</h2><ul><li>JavaWeb入门</li><li>Hibernate</li><li>Spring全家桶学到SpringBoot</li><li>图解HTTP</li><li>JWT<br>至此已经能快速开发简单的后台项目了  </li></ul><h2 id="大二下（进行中）"><a href="#大二下（进行中）" class="headerlink" title="大二下（进行中）"></a>大二下（进行中）</h2><ul><li>SpringCloud简单了解</li><li>docker简单了解（还无法熟练使用）</li><li>JavaSE重新筑基（Thinking in Java）</li><li>深入理解Java虚拟机</li></ul><hr>]]></content>
+    
+    <summary type="html">
+    
+      我是怎么走Java后端这条路的——大二篇重铸版
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Semaphore详解</title>
