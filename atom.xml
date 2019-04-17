@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://backend-xzy.github.io/"/>
-  <updated>2019-04-12T02:25:52.997Z</updated>
+  <updated>2019-04-17T12:14:26.452Z</updated>
   <id>http://backend-xzy.github.io/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>深入理解 JWT 的使用场景和优劣</title>
+    <link href="http://backend-xzy.github.io/2019/04/17/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3JWT%E7%9A%84%E4%BD%BF%E7%94%A8%E5%9C%BA%E6%99%AF%E5%92%8C%E4%BC%98%E5%8A%A3/"/>
+    <id>http://backend-xzy.github.io/2019/04/17/深入理解JWT的使用场景和优劣/</id>
+    <published>2019-04-17T12:11:29.000Z</published>
+    <updated>2019-04-17T12:14:26.452Z</updated>
+    
+    <content type="html"><![CDATA[<a id="more"></a><h2 id="深入理解-JWT-的使用场景和优劣"><a href="#深入理解-JWT-的使用场景和优劣" class="headerlink" title="深入理解 JWT 的使用场景和优劣"></a>深入理解 JWT 的使用场景和优劣</h2><hr>]]></content>
+    
+    <summary type="html">
+    
+      JWT 入门必读
+    
+    </summary>
+    
+      <category term="JWT" scheme="http://backend-xzy.github.io/categories/JWT/"/>
+    
+    
+      <category term="JWT" scheme="http://backend-xzy.github.io/tags/JWT/"/>
+    
+  </entry>
   
   <entry>
     <title>String.intern 深入研究</title>
