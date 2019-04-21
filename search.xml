@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[你是否误用了RESTful风格中面向资源的特点]]></title>
+    <url>%2F2019%2F04%2F21%2F%E4%BD%A0%E6%98%AF%E5%90%A6%E8%AF%AF%E7%94%A8%E4%BA%86RESTful%E9%A3%8E%E6%A0%BC%E4%B8%AD%E9%9D%A2%E5%90%91%E8%B5%84%E6%BA%90%E7%9A%84%E7%89%B9%E7%82%B9%2F</url>
+    <content type="text"><![CDATA[什么是 RESTful 风格&emsp;&emsp;本文主要讨论 RESTful 面向资源这一条，基础概念这里不多做介绍，不了解的请自行搜索 RESTful 的介绍 RESTful 最佳实践&emsp;&emsp;阮一峰参考相关资料写出的RESTful最佳实践 回归正题&emsp;&emsp;在设计后台接口的时候，有些接口很难使用面向资源的风格去进行设计，比如发送短信验证码和校验验证码的接口。&emsp;&emsp;实际上把这种接口强行用面向资源的风格去进行设计是对 RESTful 面向资源的特点的误用。&emsp;&emsp;为什么这么说呢？因为有些接口“不是资源”，那强行使用面向资源的风格去进行设计只会带来麻烦。]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[深入理解 JWT 的使用场景和优劣]]></title>
     <url>%2F2019%2F04%2F17%2F%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3JWT%E7%9A%84%E4%BD%BF%E7%94%A8%E5%9C%BA%E6%99%AF%E5%92%8C%E4%BC%98%E5%8A%A3%2F</url>
     <content type="text"><![CDATA[深入理解 JWT 的使用场景和优劣深入理解 JWT 的使用场景和优劣]]></content>
