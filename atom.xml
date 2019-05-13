@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://backend-xzy.github.io/"/>
-  <updated>2019-04-21T04:03:47.140Z</updated>
+  <updated>2019-05-13T03:58:43.873Z</updated>
   <id>http://backend-xzy.github.io/</id>
   
   <author>
@@ -15,6 +15,24 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>思想比API更重要</title>
+    <link href="http://backend-xzy.github.io/2019/05/13/%E6%80%9D%E6%83%B3%E6%AF%94API%E6%9B%B4%E9%87%8D%E8%A6%81/"/>
+    <id>http://backend-xzy.github.io/2019/05/13/思想比API更重要/</id>
+    <published>2019-05-13T03:49:07.000Z</published>
+    <updated>2019-05-13T03:58:43.873Z</updated>
+    
+    <content type="html"><![CDATA[<a id="more"></a><h2 id="恐怖的事实"><a href="#恐怖的事实" class="headerlink" title="恐怖的事实"></a>恐怖的事实</h2><p>&emsp;&emsp;我不知道其他学校是怎么样的，就我所在的一所二本院校而言，软件工程专业，已几乎成为API教学。<br>&emsp;&emsp;背后的原因是什么我不想深究，很复杂。但是如果作为一名有追求的软件设计者，我认为抛开设计思想只学习API是写不好代码的。</p><hr>]]></content>
+    
+    <summary type="html">
+    
+      交流有感
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>你是否误用了RESTful风格中面向资源的特点</title>
