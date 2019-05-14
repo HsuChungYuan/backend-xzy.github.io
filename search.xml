@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[好书推荐]]></title>
-    <url>%2F2019%2F05%2F14%2F%E5%A5%BD%E4%B9%A6%E6%8E%A8%E8%8D%90%2F</url>
-    <content type="text"><![CDATA[领域驱动设计：软件核心复杂性应对之道]]></content>
-  </entry>
-  <entry>
     <title><![CDATA[思想比API更重要]]></title>
     <url>%2F2019%2F05%2F13%2F%E6%80%9D%E6%83%B3%E6%AF%94API%E6%9B%B4%E9%87%8D%E8%A6%81%2F</url>
     <content type="text"><![CDATA[恐怖的事实&emsp;&emsp;我不知道其他学校是怎么样的，就我所在的一所二本院校而言，软件工程专业，已几乎成为API教学。&emsp;&emsp;背后的原因是什么我不想深究，很复杂。但是如果作为一名有追求的软件设计者，我认为抛开设计思想只学习API是写不好代码的。]]></content>
