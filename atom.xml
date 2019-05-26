@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://backend-xzy.github.io/"/>
-  <updated>2019-05-26T03:58:27.788Z</updated>
+  <updated>2019-05-26T04:00:50.292Z</updated>
   <id>http://backend-xzy.github.io/</id>
   
   <author>
@@ -21,17 +21,13 @@
     <link href="http://backend-xzy.github.io/2019/05/26/%E4%B8%AA%E4%BA%BA%E8%AF%AD%E5%BD%95%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/"/>
     <id>http://backend-xzy.github.io/2019/05/26/个人语录（持续更新）/</id>
     <published>2019-05-26T03:48:59.000Z</published>
-    <updated>2019-05-26T03:58:27.788Z</updated>
+    <updated>2019-05-26T04:00:50.292Z</updated>
     
     <content type="html"><![CDATA[<a id="more"></a><h2 id="有自己的意见和想法是一件再正常不过的事情，我们是人，不是机器"><a href="#有自己的意见和想法是一件再正常不过的事情，我们是人，不是机器" class="headerlink" title="有自己的意见和想法是一件再正常不过的事情，我们是人，不是机器"></a>有自己的意见和想法是一件再正常不过的事情，我们是人，不是机器</h2><h2 id="如果我是怪人，那么世界上所有人都是怪人；如果我不是怪人，那么这个世界上就没有怪人"><a href="#如果我是怪人，那么世界上所有人都是怪人；如果我不是怪人，那么这个世界上就没有怪人" class="headerlink" title="如果我是怪人，那么世界上所有人都是怪人；如果我不是怪人，那么这个世界上就没有怪人"></a>如果我是怪人，那么世界上所有人都是怪人；如果我不是怪人，那么这个世界上就没有怪人</h2><hr>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;h2 id=&quot;有自己的意见和想法是一件再正常不过的事情，我们是人，不是机器&quot;&gt;&lt;a href=&quot;#有自己的意见和想法是一件再正常不过的事情，我们是人，不是机器&quot; class=&quot;headerlink&quot; title=&quot;有自己的意见和想法是一件再正
-      
+      胡言乱语
     
     </summary>
     
@@ -43,17 +39,13 @@
     <link href="http://backend-xzy.github.io/2019/05/15/%E9%A2%86%E5%9F%9F%E9%A9%B1%E5%8A%A8%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/"/>
     <id>http://backend-xzy.github.io/2019/05/15/领域驱动设计模式（持续更新）/</id>
     <published>2019-05-15T13:26:09.000Z</published>
-    <updated>2019-05-16T06:00:06.933Z</updated>
+    <updated>2019-05-26T04:00:23.790Z</updated>
     
     <content type="html"><![CDATA[<a id="more"></a><h2 id="Ubiquitous-Language"><a href="#Ubiquitous-Language" class="headerlink" title="Ubiquitous Language"></a>Ubiquitous Language</h2><p>&emsp;&emsp;通用语言</p><h2 id="Model-Driven-Design"><a href="#Model-Driven-Design" class="headerlink" title="Model-Driven Design"></a>Model-Driven Design</h2><p>&emsp;&emsp;没看懂</p><h2 id="Hands-On-Modeler"><a href="#Hands-On-Modeler" class="headerlink" title="Hands-On Modeler"></a>Hands-On Modeler</h2><p>&emsp;&emsp;任何参与建模的技术人员，不管在项目中的主要职责是什么，都必须花时间了解代码。任何 负责修改代码的人员则必须学会用代码来表达模型。每一个开发人员都必须不同程度地参与模型 讨论并且与领域专家保持联系。参与不同工作的人都必须有意识地通过UBIQUITOUS LANGUAGE 与接触代码的人及时交换关于模型的想法。</p><h2 id="Layered-Architecture"><a href="#Layered-Architecture" class="headerlink" title="Layered Architecture"></a>Layered Architecture</h2><h2 id="The-Smart-UI"><a href="#The-Smart-UI" class="headerlink" title="The Smart UI"></a>The Smart UI</h2><h2 id="Entity（又称为-Reference-Object）"><a href="#Entity（又称为-Reference-Object）" class="headerlink" title="Entity（又称为 Reference Object）"></a>Entity（又称为 Reference Object）</h2><h2 id="Service"><a href="#Service" class="headerlink" title="Service"></a>Service</h2><h2 id="Module（也称为-Package）"><a href="#Module（也称为-Package）" class="headerlink" title="Module（也称为 Package）"></a>Module（也称为 Package）</h2><h2 id="Aggregate"><a href="#Aggregate" class="headerlink" title="Aggregate"></a>Aggregate</h2><h2 id="Factory"><a href="#Factory" class="headerlink" title="Factory"></a>Factory</h2><h2 id="Repository"><a href="#Repository" class="headerlink" title="Repository"></a>Repository</h2><h2 id="Specification"><a href="#Specification" class="headerlink" title="Specification"></a>Specification</h2><h2 id="Intention-Revealing-Interface"><a href="#Intention-Revealing-Interface" class="headerlink" title="Intention-Revealing Interface"></a>Intention-Revealing Interface</h2><h2 id="Side-Effect-Free-Function"><a href="#Side-Effect-Free-Function" class="headerlink" title="Side-Effect-Free Function"></a>Side-Effect-Free Function</h2><h2 id="Assertion"><a href="#Assertion" class="headerlink" title="Assertion"></a>Assertion</h2><h2 id="Conceptual-Contour"><a href="#Conceptual-Contour" class="headerlink" title="Conceptual Contour"></a>Conceptual Contour</h2><h2 id="Standalone-Class"><a href="#Standalone-Class" class="headerlink" title="Standalone Class"></a>Standalone Class</h2><h2 id="Closure-Of-Operation"><a href="#Closure-Of-Operation" class="headerlink" title="Closure Of Operation"></a>Closure Of Operation</h2><h2 id="Strategy（也成为-Policy）"><a href="#Strategy（也成为-Policy）" class="headerlink" title="Strategy（也成为 Policy）"></a>Strategy（也成为 Policy）</h2><h2 id="Composite"><a href="#Composite" class="headerlink" title="Composite"></a>Composite</h2><h2 id="Bounded-Context"><a href="#Bounded-Context" class="headerlink" title="Bounded Context"></a>Bounded Context</h2><h2 id="Continuous-Integration"><a href="#Continuous-Integration" class="headerlink" title="Continuous Integration"></a>Continuous Integration</h2><h2 id="Context-Map"><a href="#Context-Map" class="headerlink" title="Context Map"></a>Context Map</h2><h2 id="Shared-Kernel"><a href="#Shared-Kernel" class="headerlink" title="Shared Kernel"></a>Shared Kernel</h2><h2 id="Customer-Supplier-Development-Team"><a href="#Customer-Supplier-Development-Team" class="headerlink" title="Customer/Supplier Development Team"></a>Customer/Supplier Development Team</h2><h2 id="Conformist"><a href="#Conformist" class="headerlink" title="Conformist"></a>Conformist</h2><h2 id="Anticorruption-Layer"><a href="#Anticorruption-Layer" class="headerlink" title="Anticorruption Layer"></a>Anticorruption Layer</h2><h2 id="Separate-Way"><a href="#Separate-Way" class="headerlink" title="Separate Way"></a>Separate Way</h2><h2 id="Open-Host-Service"><a href="#Open-Host-Service" class="headerlink" title="Open Host Service"></a>Open Host Service</h2><h2 id="Published-Language"><a href="#Published-Language" class="headerlink" title="Published Language"></a>Published Language</h2><h2 id="Core-Domain"><a href="#Core-Domain" class="headerlink" title="Core Domain"></a>Core Domain</h2><h2 id="Generic-Subdomain"><a href="#Generic-Subdomain" class="headerlink" title="Generic Subdomain"></a>Generic Subdomain</h2><h2 id="Domain-Version-Statement"><a href="#Domain-Version-Statement" class="headerlink" title="Domain Version Statement"></a>Domain Version Statement</h2><h2 id="Highlighted-Core"><a href="#Highlighted-Core" class="headerlink" title="Highlighted Core"></a>Highlighted Core</h2><h2 id="Cohesive-Mechanism"><a href="#Cohesive-Mechanism" class="headerlink" title="Cohesive Mechanism"></a>Cohesive Mechanism</h2><h2 id="Segregated-Core"><a href="#Segregated-Core" class="headerlink" title="Segregated Core"></a>Segregated Core</h2><h2 id="Abstract-Core"><a href="#Abstract-Core" class="headerlink" title="Abstract Core"></a>Abstract Core</h2><h2 id="Evolving-Order"><a href="#Evolving-Order" class="headerlink" title="Evolving Order"></a>Evolving Order</h2><h2 id="System-Metaphor"><a href="#System-Metaphor" class="headerlink" title="System Metaphor"></a>System Metaphor</h2><h2 id="Responsibility-Layer"><a href="#Responsibility-Layer" class="headerlink" title="Responsibility Layer"></a>Responsibility Layer</h2><h2 id="Knowledge-Level"><a href="#Knowledge-Level" class="headerlink" title="Knowledge Level"></a>Knowledge Level</h2><h2 id="Pluggable-Component-Framework"><a href="#Pluggable-Component-Framework" class="headerlink" title="Pluggable Component Framework"></a>Pluggable Component Framework</h2><hr>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;h2 id=&quot;Ubiquitous-Language&quot;&gt;&lt;a href=&quot;#Ubiquitous-Language&quot; class=&quot;headerlink&quot; title=&quot;Ubiquitous Language&quot;&gt;&lt;/a&gt;Ubiquitous 
-      
+      表示暂时还看不太懂
     
     </summary>
     
