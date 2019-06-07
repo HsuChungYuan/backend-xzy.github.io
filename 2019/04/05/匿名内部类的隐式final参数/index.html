@@ -440,11 +440,11 @@
     <div class="reading-progress-bar"></div>
   
 
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
+    <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+    
+    
+    
+    <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://backend-xzy.github.io/2019/04/05/匿名内部类的隐式final参数/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -460,42 +460,43 @@
     
       <header class="post-header">
 
-        
-        
-          <h1 class="post-title" itemprop="name headline">匿名内部类的隐式final参数
+      
+      
+        <h1 class="post-title" itemprop="name headline">匿名内部类的隐式final参数
 
-              
-            
-          </h1>
-        
+      
+      
+        </h1>
+      
 
         <div class="post-meta">
-          <span class="post-time">
+        <span class="post-time">
 
             
             
             
 
             
-              <span class="post-meta-item-icon">
+        <span class="post-meta-item-icon">
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
-              
+          <span class="post-meta-item-text">发表于</span>
+        
 
               
-                
-              
-
-              <time title="创建时间：2019-04-05 10:53:15" itemprop="dateCreated datePublished" datetime="2019-04-05T10:53:15+08:00">2019-04-05</time>
-            
-
-            
-          </span>
-
           
-            <span class="post-category">
+        
+
+
+        <time title="创建时间：2019-04-05 10:53:15" itemprop="dateCreated datePublished" datetime="2019-04-05T10:53:15+08:00">2019-04-05</time>
+      
+
+            
+    </span>
+
+    
+      <span class="post-category">
             
               <span class="post-meta-divider">|</span>
             
@@ -505,23 +506,23 @@
               
                 <span class="post-meta-item-text">分类于</span>
               
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Java拾遗/" itemprop="url" rel="index"><span itemprop="name">Java拾遗</span></a></span>
+        
+          <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Java拾遗/" itemprop="url" rel="index"><span itemprop="name">Java拾遗</span></a></span>
 
-                
-                
-              
+          
+          
+        
             </span>
-          
+    
 
-          
-            
-            
-          
+    
+      
+      
+    
 
-          
-          
-            <span id="/2019/04/05/匿名内部类的隐式final参数/" class="leancloud_visitors" data-flag-title="匿名内部类的隐式final参数">
+    
+    
+      <span id="/2019/04/05/匿名内部类的隐式final参数/" class="leancloud_visitors" data-flag-title="匿名内部类的隐式final参数">
               <span class="post-meta-divider">|</span>
               <span class="post-meta-item-icon">
                 <i class="fa fa-eye"></i>
@@ -531,30 +532,30 @@
               
                 <span class="leancloud-visitors-count"></span>
             </span>
-          
-
-          
-
-          
-
-          
-            <div class="post-description">以前没听说过？没事，进来看看，你就懂了</div>
-          
-
-        </div>
-      </header>
     
 
     
-    
-    
-    <div class="post-body" itemprop="articleBody">
 
-      
-      
+    
 
-      
-        <p>&emsp;&emsp;标题原文：为什么匿名内部类只能使用final修饰的局部变量。但是在写博文的过程中，发现这句话其实是根本不对的，故将标题改为“匿名内部类的隐式final参数”。<br><a id="more"></a></p>
+    
+      <div class="post-description">以前没听说过？没事，进来看看，你就懂了</div>
+    
+
+    </div>
+    </header>
+  
+
+  
+  
+  
+  <div class="post-body" itemprop="articleBody">
+
+    
+  
+
+  
+    <p>&emsp;&emsp;标题原文：为什么匿名内部类只能使用final修饰的局部变量。但是在写博文的过程中，发现这句话其实是根本不对的，故将标题改为“匿名内部类的隐式final参数”。<br><a id="more"></a></p>
 <h2 id="1-一句话概念"><a href="#1-一句话概念" class="headerlink" title="1 一句话概念"></a>1 一句话概念</h2><h3 id="emsp-1-1-什么是匿名内部类"><a href="#emsp-1-1-什么是匿名内部类" class="headerlink" title="&emsp;1.1 什么是匿名内部类"></a>&emsp;1.1 什么是匿名内部类</h3><p>&emsp;&emsp;&emsp;匿名内部类就是定义在方法中的类。</p>
 <h3 id="emsp-1-2-什么是局部变量"><a href="#emsp-1-2-什么是局部变量" class="headerlink" title="&emsp;1.2 什么是局部变量"></a>&emsp;1.2 什么是局部变量</h3><p>&emsp;&emsp;&emsp;局部变量就是在方法中被声明的变量。</p>
 <h2 id="2-匿名内部类代码示例"><a href="#2-匿名内部类代码示例" class="headerlink" title="2 匿名内部类代码示例"></a>2 匿名内部类代码示例</h2><figure class="highlight java"><figcaption><span>不使用局部变量的匿名类</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">interface</span> <span class="title">Interface</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">function</span><span class="params">()</span></span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">test</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        <span class="comment">//匿名类定义开始</span></span><br><span class="line">        Interface intface = <span class="keyword">new</span> Interface() &#123;</span><br><span class="line">            <span class="meta">@Override</span></span><br><span class="line">            <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">function</span><span class="params">()</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">            &#125;</span><br><span class="line">        &#125;;<span class="comment">//匿名类定义结束</span></span><br><span class="line">        </span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
@@ -576,67 +577,67 @@
 </ol>
 <p>&emsp;&emsp;分析：运行至12行，内部类中的local变量被改变了，这就导致两个local变量的值不一样，违背了Java的设计要求，所以Java设计者们规定隐式参数为final来保证数据一致性</p>
 <hr>
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-      
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-        <div class="post-tags">
-          
-            <a href="/tags/Java拾遗/" rel="tag"># Java拾遗</a>
-          
-            <a href="/tags/匿名内部类/" rel="tag"># 匿名内部类</a>
-          
-        </div>
-      
-
-      
-      
-      
-
-      
-        <div class="post-nav">
-          <div class="post-nav-next post-nav-item">
-            
-              <a href="/2019/04/03/Java中的API与SPI/" rel="next" title="Java中的API与SPI">
-                <i class="fa fa-chevron-left"></i> Java中的API与SPI
-              </a>
-            
-          </div>
-
-          <span class="post-nav-divider"></span>
-
-          <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2019/04/10/Semaphore详解/" rel="prev" title="Semaphore详解">
-                Semaphore详解 <i class="fa fa-chevron-right"></i>
-              </a>
-            
-          </div>
-        </div>
-      
-
-      
-      
-    </footer>
+  
   </div>
+
+  
+
   
   
+  
+
+  
+
+  
+    
+  
+  
+
+  
+
+  <footer class="post-footer">
+    
+      <div class="post-tags">
+        
+          <a href="/tags/Java拾遗/" rel="tag"># Java拾遗</a>
+        
+          <a href="/tags/匿名内部类/" rel="tag"># 匿名内部类</a>
+        
+      </div>
+    
+
+    
+    
+    
+
+    
+      <div class="post-nav">
+        <div class="post-nav-next post-nav-item">
+          
+            <a href="/2019/04/03/Java中的API与SPI/" rel="next" title="Java中的API与SPI">
+              <i class="fa fa-chevron-left"></i> Java中的API与SPI
+            </a>
+          
+        </div>
+
+        <span class="post-nav-divider"></span>
+
+        <div class="post-nav-prev post-nav-item">
+          
+            <a href="/2019/04/10/Semaphore详解/" rel="prev" title="Semaphore详解">
+              Semaphore详解 <i class="fa fa-chevron-right"></i>
+            </a>
+          
+        </div>
+      </div>
+    
+
+    
+    
+  </footer>
+</div>
+
+
   
   </article>
 
@@ -700,7 +701,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">14</span>
+                    <span class="site-state-item-count">15</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
