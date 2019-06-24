@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[Java 细节知识（短篇持续更新）]]></title>
     <url>%2F2019%2F06%2F24%2FJava%E7%BB%86%E8%8A%82%E7%9F%A5%E8%AF%86%EF%BC%88%E7%9F%AD%E7%AF%87%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89%2F</url>
-    <content type="text"><![CDATA[ˋfinal classˋ一定没有ˋabstractˋ方法吗？（不一定，枚举可以有ˋabstractˋ方法）]]></content>
+    <content type="text"><![CDATA[final class 一定没有 abstract 方法吗？（不一定，enum 可以有 abstract 方法)]]></content>
   </entry>
   <entry>
     <title><![CDATA[同类]]></title>
