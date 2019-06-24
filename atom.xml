@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://backend-xzy.github.io/"/>
-  <updated>2019-06-07T05:26:57.951Z</updated>
+  <updated>2019-06-24T10:59:44.855Z</updated>
   <id>http://backend-xzy.github.io/</id>
   
   <author>
@@ -15,6 +15,24 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Java 细节知识（短篇持续更新）</title>
+    <link href="http://backend-xzy.github.io/2019/06/24/Java%E7%BB%86%E8%8A%82%E7%9F%A5%E8%AF%86%EF%BC%88%E7%9F%AD%E7%AF%87%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/"/>
+    <id>http://backend-xzy.github.io/2019/06/24/Java细节知识（短篇持续更新）/</id>
+    <published>2019-06-24T10:55:16.000Z</published>
+    <updated>2019-06-24T10:59:44.855Z</updated>
+    
+    <content type="html"><![CDATA[<p class="description"></p><a id="more"></a><p>ˋfinal classˋ一定没有ˋabstractˋ方法吗？（不一定，枚举可以有ˋabstractˋ方法）  </p><hr>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p class=&quot;description&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>同类</title>
