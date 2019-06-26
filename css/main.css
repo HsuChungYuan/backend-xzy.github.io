@@ -1910,7 +1910,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #444526;
+  background: #5095af;
 }
 .feed-link,
 .chat {
@@ -3001,6 +3001,7 @@ span.exturl {
   width: 85px !important;
 }
 code {
-  color: #f00;
+  color: #ca0000;
   background-color: #fff;
+  font-weight: bold;
 }
